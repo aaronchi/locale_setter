@@ -7,6 +7,7 @@ require "locale_setter/http"
 require "locale_setter/user"
 require "locale_setter/domain"
 require "locale_setter/param"
+require "locale_setter/session"
 require "locale_setter/generic"
 
 module LocaleSetter

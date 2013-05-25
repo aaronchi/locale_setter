@@ -16,6 +16,7 @@ module LocaleSetter
       Generic.set_locale(
         i18n,
         {:params => params,
+         :session => session,
          :user   => locale_user,
          :domain => request.domain,
          :env    => request.env}
